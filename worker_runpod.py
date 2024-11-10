@@ -47,9 +47,9 @@ def generate(input):
 
     image = load_image(input_image)
     video = pipe(image=image, prompt=prompt, guidance_scale=guidance_scale, use_dynamic_cfg=use_dynamic_cfg, num_inference_steps=num_inference_steps).frames[0]
-    export_to_video(video, "/content/cogvideox_5b_i2v_tost.mp4", fps=fps)
+    export_to_video(video, "/content/cogvideox_5b_i2v_dimensionx_tost.mp4", fps=fps)
 
-    result = "/content/cogvideox_5b_i2v_tost.mp4"
+    result = "/content/cogvideox_5b_i2v_dimensionx_tost.mp4"
     try:
         notify_uri = values['notify_uri']
         del values['notify_uri']
