@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+    "type": "object",
+    "properties": {
+      "readme": {
+        "type": "string",
+        "title": "CogVideoX 5B I2V: Image-to-Video Diffusion Models with An Expert Transformer",
+        "author": "Zhuoyi Yang, Jiayan Teng, Wendi Zheng, Ming Ding, Shiyu Huang, Jiazheng Xu, Yuanming Yang, Wenyi Hong, Xiaohan Zhang, Guanyu Feng, Da Yin, Xiaotao Gu, Yuxuan Zhang, Weihan Wang, Yean Cheng, Ting Liu, Bin Xu, Yuxiao Dong, Jie Tang",
+        "paper": "https://arxiv.org/abs/2408.06072",
+        "code": "https://github.com/THUDM/CogVideo",
+        "jupyter": "https://github.com/camenduru/CogVideoX-5B-jupyter",
+        "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/cogvideox-5b-i2v.ipynb",
+        "tags": [
+          "Image to Video"
+        ],
+        "widget": "readme"
+      },
+      "upload": {
+        "type": "string",
+        "widget": "upload",
+        "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+        "property": "input_image_check"
+      },
+      "input_image_check": {
+        "type": "string",
+        "description": "Input Image URL",
+        "widget": "textarea"
+      },
+      "prompt": {
+        "type": "string",
+        "description": "Prompt",
+        "widget": "textarea"
+      },
+      "example": {
+        "type": "string",
+        "image1": "https://files.catbox.moe/05f6a9.png",
+        "image2": "https://files.catbox.moe/4ggf21.png",
+        "image3": "https://fakeimg.pl/720x480/282828/eae0d0/?text=output#.png",
+        "image4": "https://files.catbox.moe/1m47u0.mp4",
+        "line1": "Video size: 720x480 pixels",
+        "line2": "Video duration: 6 seconds",
+        "widget": "example"
+      }
+    },
+    "buttons": [
+      {
+        "id": "enter",
+        "label": "🥪 Enter"
+      }
+    ]
+  }
