@@ -1,0 +1,72 @@
+{
+    "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+    "type": "object",
+    "properties": {
+      "readme": {
+        "type": "string",
+        "title": "DimensionX: Create Any 3D and 4D Scenes from a Single Image with Controllable Video Diffusion",
+        "author": "Wenqiang Sun, Shuo Chen, Fangfu Liu, Zilong Chen, Yueqi Duan, Jun Zhang, Yikai Wang",
+        "paper": "https://arxiv.org/abs/2411.04928",
+        "code": "https://github.com/wenqsun/DimensionX",
+        "page": "https://chenshuo20.github.io/DimensionX/",
+        "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/dimensionx-up.ipynb",
+        "tags": [
+          "Image to Video"
+        ],
+        "widget": "readme"
+      },
+      "upload": {
+        "type": "string",
+        "widget": "upload",
+        "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+        "property": "input_image_check"
+      },
+      "input_image_check": {
+        "type": "string",
+        "description": "Input Image URL",
+        "widget": "textarea"
+      },
+      "prompt": {
+        "type": "string",
+        "description": "Prompt",
+        "widget": "textarea"
+      },
+      "negative_prompt": {
+        "type": "string",
+        "description": "Negative Prompt",
+        "widget": "textarea"
+      },
+      "seed": {
+        "type": "integer",
+        "description": "Seed (if 0 random)"
+      },
+      "steps": {
+        "type": "string",
+        "description": "Steps",
+        "widget": "hidden"
+      },
+      "cfg": {
+        "type": "number",
+        "description": "CFG",
+        "widget": "hidden"
+      },
+      "example": {
+        "type": "string",
+        "image1": "https://fakeimg.pl/592x440/282828/eae0d0/?text=input#.png",
+        "image2": "https://files.catbox.moe/05f6a9.png",
+        "image3": "https://fakeimg.pl/592x440/282828/eae0d0/?text=output#.png",
+        "image4": "https://files.catbox.moe/76tz3y.mp4",
+        "video_aspect_ratio": "75%",
+        "line1": "Video size: 720x480 pixels",
+        "line2": "Video duration: 6 seconds",
+        "line3": "⚠ Important: Your image will be cropped to a 3:2 (720x480) aspect ratio.",
+        "widget": "example"
+      }
+    },
+    "buttons": [
+      {
+        "id": "enter",
+        "label": "🥪 Enter"
+      }
+    ]
+  }

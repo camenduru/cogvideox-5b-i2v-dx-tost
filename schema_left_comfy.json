@@ -9,7 +9,7 @@
         "paper": "https://arxiv.org/abs/2411.04928",
         "code": "https://github.com/wenqsun/DimensionX",
         "page": "https://chenshuo20.github.io/DimensionX/",
-        "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/dimensionx-up.ipynb",
+        "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/dimensionx-left.ipynb",
         "tags": [
           "Image to Video"
         ],
@@ -55,10 +55,11 @@
         "image1": "https://fakeimg.pl/592x440/282828/eae0d0/?text=input#.png",
         "image2": "https://files.catbox.moe/05f6a9.png",
         "image3": "https://fakeimg.pl/592x440/282828/eae0d0/?text=output#.png",
-        "image4": "https://files.catbox.moe/76tz3y.mp4",
+        "image4": "https://files.catbox.moe/1m47u0.mp4",
         "video_aspect_ratio": "75%",
         "line1": "Video size: 720x480 pixels",
         "line2": "Video duration: 6 seconds",
+        "line3": "⚠ Important: Your image will be cropped to a 3:2 (720x480) aspect ratio.",
         "widget": "example"
       }
     },
