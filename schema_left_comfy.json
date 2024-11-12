@@ -59,7 +59,7 @@
         "video_aspect_ratio": "75%",
         "line1": "Video size: 720x480 pixels",
         "line2": "Video duration: 6 seconds",
-        "line3": "⚠ Important: Your image will be cropped to a 3:2 (720x480) aspect ratio.",
+        "line3": "⚠ Important: For best results, please use a 3:2 aspect ratio. Your image will be cropped to a 3:2 (720x480) aspect ratio.",
         "widget": "example"
       }
     },
