@@ -31,12 +31,31 @@
         "description": "Prompt",
         "widget": "textarea"
       },
+      "negative_prompt": {
+        "type": "string",
+        "description": "Negative Prompt",
+        "widget": "textarea"
+      },
+      "seed": {
+        "type": "integer",
+        "description": "Seed (if 0 random)"
+      },
+      "steps": {
+        "type": "string",
+        "description": "Steps",
+        "widget": "hidden"
+      },
+      "cfg": {
+        "type": "number",
+        "description": "CFG",
+        "widget": "hidden"
+      },
       "example": {
         "type": "string",
         "image1": "https://fakeimg.pl/592x440/282828/eae0d0/?text=input#.png",
         "image2": "https://files.catbox.moe/05f6a9.png",
         "image3": "https://fakeimg.pl/592x440/282828/eae0d0/?text=output#.png",
-        "image4": "https://files.catbox.moe/1m47u0.mp4",
+        "image4": "https://files.catbox.moe/76tz3y.mp4",
         "video_aspect_ratio": "75%",
         "line1": "Video size: 720x480 pixels",
         "line2": "Video duration: 6 seconds",

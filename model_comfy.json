@@ -1,0 +1,8 @@
+{
+    "input_image_check": "https://files.catbox.moe/05f6a9.png",
+    "prompt": "Cinematic scene, camera orbits.",
+    "negative_prompt": "The video is not of a high quality, it has a low resolution. Watermark present in each frame. Strange motion trajectory. ",
+    "seed": 0,
+    "steps": 10,
+    "cfg": 6.0
+}
