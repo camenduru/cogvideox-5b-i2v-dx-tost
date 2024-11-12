@@ -44,6 +44,6 @@ RUN pip install torch==2.5.0+cu124 torchvision==0.20.0+cu124 torchaudio==2.5.0+c
     aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/vdo/CogVideoX-5b-I2V/raw/main/configuration.json -d /content/ComfyUI/models/CogVideo/CogVideoX-5b-I2V -o configuration.json && \
     aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/vdo/CogVideoX-5b-I2V/raw/main/model_index.json -d /content/ComfyUI/models/CogVideo/CogVideoX-5b-I2V -o model_index.json
 
-COPY ./worker_runpod.py /content/worker_runpod.py
-WORKDIR /content
+COPY ./worker_runpod.py /content/ComfyUI/worker_runpod.py
+WORKDIR /content/ComfyUI
 CMD python worker_runpod.py
