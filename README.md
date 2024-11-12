@@ -20,5 +20,7 @@ https://chenshuo20.github.io/DimensionX/
 
 https://github.com/user-attachments/assets/e2764aa4-79e2-4cbb-b45e-a8adbc4c7184
 
+https://github.com/user-attachments/assets/7d6a5f0e-7b91-411b-b3df-f994359366e1
+
 ### 🏢 Sponsor
 [https://runpod.io](https://runpod.io?ref=iqi9iy8y)
